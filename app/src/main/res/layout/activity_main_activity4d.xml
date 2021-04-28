@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Demo My Second App</string>
+    <string name="message">Welcome to Android!</string>
+    <string name="text">Large Text</string>
+</resources>
+
+    strings.xml
+
+<TextView
+android:id="@+id/textView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/message" />
+
+<TextView
+android:id="@+id/textView2"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="@string/text"
+android:textAppearance="@android:style/TextAppearance.Large" />
+
+

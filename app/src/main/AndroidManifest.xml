@@ -9,13 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyDemoSecondApp">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivityForm"></activity>
+        <activity android:name=".MainActivitylogin" />
+        <activity android:name=".MainActivity4b" />
+        <activity android:name=".MainActivity4a" />
+        <activity android:name=".MainActivity3b" />
+        <activity android:name=".MainActivity3a" />
+        <activity android:name=".MainActivity2d" />
+        <activity android:name=".MainActivity2c" />
+        <activity android:name=".MainActivity2b" />
+        <activity android:name=".MainActivity2a" />
     </application>
 
 </manifest>
